@@ -1,0 +1,12 @@
+.typewriter {
+    border-right: .15em solid black;  /* 这会创建一个光标效果 */
+    white-space: nowrap;  /* 这会防止文本换行 */
+    overflow: hidden;  /* 这会隐藏超出容器的文本 */
+    animation: blink-caret .75s step-end infinite;
+}
+
+/* 这个动画会创建一个闪烁的光标效果 */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
